@@ -1,0 +1,19 @@
+{
+  "network":"solana",
+  "tokenMint":"FiGo1b6k1DzKcoYSRxfB8UMqhucgDtW8EnynRL6yRur",
+  "lock": {
+    "locked_liquidity": true,
+    "lock_type": "CLMM-PDA",
+    "clmm_position_account": "C6TL8quiuFJUy5ucx1ULDR57GjFWtHWTtUQ8zVoAVYRW",
+    "position_owner_pda": "GJyxRzHHRS7aGZP8kz8PZMDCHVn7CyDrEVfHRZDt5t5J",
+    "pda_on_curve": false,
+    "pda_program": "RoCKeTyq1Wf8Co6e2x1RQCC6uxRkZrQ3mDJUEoQryhh",
+    "vaults": {
+      "acke_vault":"rySKvP1HEdwatCRdchAwGYwAoR9mRt3LhPbFAiorsap",
+      "wsol_vault":"7eLA8C4LFHNGD8Rh9awGuSbGBu3zuhWeZtrQwviicujN"
+    },
+    "authority_removal_tx":"2za3bAsuMz6w3dNMPZCv994HBDaDHCcK9HEzwr9EBaPkyEbdg3WgNduKKJ4KqegsMadziM1EnXN4ckqZTMP4XdQi",
+    "notes":"PDA off-curve => no private key; RocketLauncher program contains no withdraw/reclaim; mint & freeze authorities set to None."
+  },
+  "evidence_repo":"https://github.com/AckeToken/acke-liquidity-proof"
+}
