@@ -1,0 +1,22 @@
+{
+  "network": "solana",
+  "tokenMint": "FiGo1b6k1DzKcoYSRxfB8UMqhucgDtW8EnynRL6yRur",
+
+  "clmmPoolAccount": "C6TL8quiuFJUy5ucx1ULDR57GjFWtHWTtUQ8zVoAVYRW",
+
+  "positionOwnerPDA": "GJyxRzHHRS7aGZP8kz8PZMDCHVn7CyDrEVfHRZDt5t5J",
+  "pdaProgram": "RoCKeTyq1Wf8Co6e2x1RQCC6uxRkZrQ3mDJUEoQryhh",
+  "ownerIsOnCurve": false,
+
+  "vaults": {
+    "ackeVault": "rySKvP1HEdwatCRdchAwGYwAoR9mRt3LhPbFAiorsap",
+    "wsolVault": "7eLA8C4LFHNGD8Rh9awGuSbGBu3zuhWeZtrQwviicujN"
+  },
+
+  "authorities": {
+    "mintAuthority": null,
+    "freezeAuthority": null
+  },
+
+  "meaning": "CLMM pool’s position owner is a PDA (off-curve, no private key). No withdraw/reclaim path; vaults are program-owned; token authorities are removed."
+}
